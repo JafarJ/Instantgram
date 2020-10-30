@@ -1,0 +1,144 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+html, body {
+    background-color: #fafafa;
+    color: #636b6f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+b, strong {
+    font-weight: bold !important;
+}
+
+.simpleFollowButton button{
+    color: #3490dc;
+    border: none;
+    background-color: transparent;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+.simpleFollowButton button:hover{
+    color: #246aa3;
+    border: none;
+    background-color: transparent;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+.link-unstyled {
+    &,
+    &:visited,
+    &:hover,
+    &:active,
+    &:focus,
+    &:active:hover {
+      font-style: inherit;
+      color: inherit;
+      background-color: transparent;
+      font-size: inherit;
+      text-decoration: none;
+      font-variant: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      font-family: inherit;
+      border-radius: inherit;
+      border: inherit;
+      outline: inherit;
+      box-shadow: inherit;
+      padding: inherit;
+      vertical-align: inherit;
+    }
+  }
+
+.active{
+    color: black !important;
+}
+
+.inactive{
+    color: lightgray !important;
+}
+
+.inactive:hover{
+    color: black !important;
+}
+
+.likeCounterBesideHeart .heart {
+    display: flex !important;
+}
+
+.likeCounterBesideHeart .heart p {
+    margin: 0 !important;
+    padding: 10px;
+}
+
+.fixedUserDiv{
+    position: fixed;
+    width:inherit;
+    max-width:375px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fixedUserDiv{
+        position: fixed;
+        width:inherit;
+        max-width:300px !important;
+    }
+}
+
+main{
+    min-height: 85vh;
+}
