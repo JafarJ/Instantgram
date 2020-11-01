@@ -20,7 +20,7 @@
                                         {{ $post->user->username }}
                                     </a>
                                 </strong>
-                                @if(Auth::user()->id !== $post->user->id)
+                                @if(Auth::user() && Auth::user()->id !== $post->user->id || !Auth::user())
 
                                 @if(Auth::user()->following->contains($post->user->id))
                                 @php
