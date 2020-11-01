@@ -12,7 +12,7 @@ class Profile extends Model
 
     public function profileImage(){
         $imagePath = ($this->image) ?  $this->image : 'images/NoProfile.jpeg';
-        return '/storage/' . $imagePath;
+        return $imagePath;
     } 
 
     public function followers(){
