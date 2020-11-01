@@ -1,6 +1,6 @@
 <p align="center"><a href="http://18.191.134.123" target="_blank"><img src="http://18.191.134.123/svg/instantgramText.svg" width="400"></a></p>
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![Gem Version](http://img.shields.io/gem/v/badgerbadgerbadger.svg?style=flat-square)](https://rubygems.org/gems/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
+<p align="center"><a href="http://18.191.134.123" target="_blank"><img src="http://18.191.134.123/svg/instantgram.svg" width="400"></a></p>
 
 # Laravel 8.9 Social media site
 Hey! I´m Jafar Jabbarzadeh, a wannabe software engineer from Las Palmas de Gran Canaria! https://www.linkedin.com/in/jafarjabbarzadeh/ And this is a Laravel 8.9 based Instagram clone, complete with accounts, posts, likes, follows, main and explore page and more! 
