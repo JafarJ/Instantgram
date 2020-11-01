@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row px-5">
         <div class="col-8 pt-5">
-            <img src="{{ $post->image }}" class="w-100 px-5">
+            <img src="/storage/{{ $post->image }}" class="w-100 px-5">
         </div>
         <div class="col-4 pt-5">
             <div>
