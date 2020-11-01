@@ -12,7 +12,7 @@
             <div class="row m-0">
                 <div class="d-flex align-items-center pl-3 pt-3">
                     <div class="pr-3">
-                        <img src="public/images/instantgram.png" class="w-100 rounded-circle" style="max-width: 40px;">
+                        <img src="images/instantgram.png" class="w-100 rounded-circle" style="max-width: 40px;">
                     </div>
                     <div>
                         <div>
@@ -27,7 +27,7 @@
             </div>
             <div class="row pt-3 pb-3 m-0">
                 <div class="w-100">
-                    <a href="#"><img src="public/images/addicting.png" class="w-100 "></a>
+                    <a href="#"><img src="images/addicting.png" class="w-100 "></a>
                 </div>
             </div>
             <div class="row pb-5 pl-3 m-0">
