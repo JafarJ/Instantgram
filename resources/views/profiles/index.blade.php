@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between align-items-baseline">
                 <div class="d-flex pb-4">
                     <h1>{{ $user->username }}</h1>
-                    @if(Auth::user()->id !== $user->id)
+                    @if(Auth::user() && Auth::user()->id !== $user->id || !Auth::user())
                     <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
                     @endif
                 </div>
